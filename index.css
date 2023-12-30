@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    margin-left: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+.calculatorContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+    width: 400px;
+    height: 400px;
+    
+}
+
+.numbers, .operatorBtns {
+    height: 100px;
+    width: 100px;
+}
